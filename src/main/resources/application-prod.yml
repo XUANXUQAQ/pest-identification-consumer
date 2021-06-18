@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: pest-identification-consumer
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 120.79.146.15:8848
+  main:
+    allow-bean-definition-overriding: true
