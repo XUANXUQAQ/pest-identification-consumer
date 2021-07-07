@@ -11,3 +11,10 @@ spring:
         server-addr: 127.0.0.1:8848
   main:
     allow-bean-definition-overriding: true
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 3000
+        readTimeout: 10000
