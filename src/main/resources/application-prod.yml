@@ -9,6 +9,8 @@ spring:
     nacos:
       discovery:
         server-addr: 120.79.146.15:8848
+      config:
+        enabled: false
   main:
     allow-bean-definition-overriding: true
 
